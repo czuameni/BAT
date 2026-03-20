@@ -1,0 +1,37 @@
+BAT (Backup Automation Tool) – Instrukcja obsługi
+
+1. Uruchom aplikację BAT.exe
+
+2. Wybierz folder:
+   - Kliknij "Select Folder"
+   - Wskaż folder, który chcesz backupować
+
+3. Wykonaj backup:
+   - Kliknij "Run Backup"
+   - Aplikacja automatycznie:
+     - przeskanuje pliki
+     - wykryje zmiany
+     - zapisze nowe wersje
+
+4. Sprawdź historię:
+   - Przejdź do zakładki "History"
+   - Zobaczysz listę backupów
+
+5. Przywracanie pliku:
+   - Kliknij dwukrotnie wybrany wpis w historii
+   - Plik zostanie przywrócony do poprzedniej wersji
+
+6. Dashboard:
+   - Zakładka "Settings"
+   - Pokazuje:
+     - liczbę plików
+     - liczbę backupów
+     - rozmiar danych
+     - ostatni backup
+
+Uwagi:
+- Backup wykonywany jest tylko dla zmienionych plików
+- Każda wersja pliku jest zapisywana osobno
+- Aplikacja nie usuwa starych backupów
+
+Autor: BAT

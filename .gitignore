@@ -1,0 +1,27 @@
+```gitignore
+# Python
+__pycache__/
+*.pyc
+
+# Virtual env
+venv/
+.env/
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# Database
+data/app.db
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
