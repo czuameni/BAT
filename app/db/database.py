@@ -23,9 +23,6 @@ class Database:
             )
             """)
 
-    # =========================
-    # 💾 SAVE VERSION
-    # =========================
     def save_version(self, original, backup, file_hash):
         with self._connect() as conn:
             conn.execute("""
@@ -33,9 +30,6 @@ class Database:
             VALUES (?, ?, ?)
             """, (str(original), str(backup), file_hash))
 
-    # =========================
-    # 🔍 GET LAST FILE VERSION
-    # =========================
     def get_file(self, path):
         with self._connect() as conn:
             cursor = conn.execute("""
@@ -55,9 +49,6 @@ class Database:
             "backup_path": row[2]
         }
 
-    # =========================
-    # 📜 GET HISTORY
-    # =========================
     def get_history(self):
         with self._connect() as conn:
             cursor = conn.execute("""
